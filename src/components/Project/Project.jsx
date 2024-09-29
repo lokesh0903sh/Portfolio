@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { PROJECTS } from '../../utils/data'
-import "./project.css"
+import "./Project.css"
 import ProjectCard from './ProjectCard/ProjectCard'
 import Slider from 'react-slick'
 
