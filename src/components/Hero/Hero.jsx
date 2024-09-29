@@ -14,20 +14,20 @@ const Hero = () => {
         <div className="hero-img">
             <div>
                 <div className="tech-icon">
-                    <img src="src/assets/react.png" alt="hero"/>
+                    <img src="/assets/react.png" alt="hero"/>
                 </div>
-                <img src="src/assets/heoimg.jpeg" alt="hero"/>
+                <img src="/assets/heoimg.jpeg" alt="hero"/>
             </div>
 
             <div>
                 <div className="tech-icon">
-                    <img src="src/assets/html.png" alt="hero"/>
+                    <img src="/assets/html.png" alt="hero"/>
                 </div>
                 <div className="tech-icon">
-                    <img src="src/assets/css.png" alt="hero"/>
+                    <img src="/assets/css.png" alt="hero"/>
                 </div>
                 <div className="tech-icon">
-                    <img src="src/assets/javascript.png" alt="hero"/>
+                    <img src="/assets/javascript.png" alt="hero"/>
                 </div>
             </div>
         </div>
