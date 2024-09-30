@@ -35,7 +35,7 @@ const Project = () => {
   };
 
   return (
-    <section className='project-container'>
+    <section id='projects-container' className='project-container'>
         <h5>Projects</h5>
         <div className='project-content'>
           <div className='arrow-right' onClick={slideRight}>

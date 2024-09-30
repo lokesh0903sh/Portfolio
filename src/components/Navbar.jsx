@@ -17,16 +17,16 @@ const Navbar = () => {
           <h1 className="logo">Lokesh Sharma</h1>
           <ul>
             <li>
-              <a className="menu-item"> Home</a>
+              <a href="#" className="menu-item"> Home</a>
             </li>
             <li>
-              <a className="menu-item"> Skills</a>
+              <a href="#skills-container" className="menu-item"> Skills</a>
             </li>
             <li>
-              <a className="menu-item"> Projects</a>
+              <a href="#projects-container" className="menu-item"> Projects</a>
             </li>
             <li>
-              <a className="menu-item"> Contact Me</a>
+              <a href="#contactme-container" className="menu-item"> Contact Me</a>
             </li>
 
             <button className="contact-btn" onClick={() => {}}>
