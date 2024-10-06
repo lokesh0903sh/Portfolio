@@ -1,16 +1,30 @@
 import React from "react";
 import "./Hero.css"
+import TextRoleAnimation from "../TextRoleAnimation";
 
 const Hero = () => {
+    const handleClick = () => {
+        window.location.href = "https://drive.google.com/file/d/1_T6L2wiwUMeda7Vs5_SXf38gPfia8Spf/view?usp=sharing"  
+      };
+      const handleClickHire = () => {
+        window.location.href = "mailto:lokesh0903sh@gmail.com"
+      };
   return (
     <section className="hero-container">
-        <div className="hero-content">
-            <h2>Building Digital Experiences That Inspire</h2>
+        <div className="role">
+            <span>Hi, I'm Lokesh Sharma. I'm a </span><TextRoleAnimation/>
             <p>
-            I am a passionate and detail-oriented Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js) with a proven track record of building scalable, high-performance web applications. I have a deep understanding of both frontend and backend technologies, enabling me to create seamless user experiences while ensuring efficient server-side logic.
+            Proficient Software Developer skilled in working with modern frameworks like React, Node.js, and Express. Dedicated to writing clean, maintainable code and enhancing software performance.
             </p>
+            <div className="contact-details">
+                <button className="resume" onClick={handleClick}>
+                Resume
+                </button>
+                <button className="contact-btn" onClick={handleClickHire}>
+                    Hire Me
+                </button>
+            </div>
         </div>
-
         <div className="hero-img">
             <div>
                 <div className="tech-icon">

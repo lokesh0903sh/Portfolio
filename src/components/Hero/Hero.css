@@ -1,7 +1,19 @@
 .hero-container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: relative;
+}
+
+.role span{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.role p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    width: 95%;
 }
 
 .hero-container::after, .hero-container::before{
@@ -25,26 +37,58 @@
     right: 0rem;
 }
 
-.hero-content{
-    flex: 3/4;
+.contact-details{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
 }
 
-.hero-content h2{
-    font-size: 3.8rem;
-    font-weight: 600;
-    line-height: 5rem;
-    margin-bottom: 1rem;
+.resume {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
 }
 
-.hero-content p{
-    width: 80%;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 2rem;
+.resume:hover{
+    color: #a453fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+}
+
+.contact-btn{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.contact-btn:hover{
+    color: #a453fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
 }
 
 .hero-img{
-    flex: 1;
+    /* flex: 1; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,12 +131,11 @@
 }
 
 @media (max-width: 1025px) {
-    .hero-content h2{
-        font-size: 3rem;
-        line-height: 4rem;
+    .role span{
+        font-size: 1.5rem;
     }
-
-    .hero-content p{
+    
+    .role p{
         font-size: 0.9rem;
         line-height: 1.6rem;
     }
@@ -124,7 +167,7 @@
         margin-top: 3rem;
     }
 
-    .hero-content h2, .hero-content p {
+    .role span, .role p {
         width: auto;
         text-align: center;
     }
@@ -148,12 +191,11 @@
 }
 
 @media (max-width: 600px) {
-    .hero-content h2{
-        font-size: 2.2rem;
-        line-height: 3rem;
+    .role span{
+        font-size: 1.3rem;
     }
 
-    .hero-content p {
+    .role p {
         font-size: 0.8rem;
         line-height: 1.3rem;
     }

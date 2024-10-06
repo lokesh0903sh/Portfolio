@@ -1,0 +1,29 @@
+.about{
+    margin: 5rem 0;
+}
+
+h2{
+    text-align: center;
+}
+.hero-content p{
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.about h5{
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+@media (max-width: 768px) {
+    .about h5{
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
