@@ -5,7 +5,7 @@
 h2{
     text-align: center;
 }
-.hero-content p{
+.about p{
     width: 80%;
     margin: 1rem auto;
     text-align: center;
@@ -25,5 +25,21 @@ h2{
     .about h5{
         font-size: 1.3rem;
         margin-bottom: 2rem;
+    }
+
+    .about p{
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .about h5{
+        font-size: 1.3rem;
+    }
+
+    .about p {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
     }
 }

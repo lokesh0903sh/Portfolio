@@ -73,3 +73,10 @@
         font-size: 0.75rem; 
     }
 }
+
+@media (max-width: 600px) {
+    .project-card{
+        margin:  0;
+        height: 23rem;
+    }
+}
