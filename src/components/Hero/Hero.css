@@ -6,6 +6,8 @@
 }
 
 .role span{
+    margin-top: 2px;
+    margin-bottom: 2px;
     font-size: 1.7rem;
     font-weight: 600;
 }

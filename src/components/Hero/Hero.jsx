@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <section className="hero-container">
         <div className="role">
-            <span>Hi, I'm Lokesh Sharma. I'm a </span><TextRoleAnimation/>
+            <span>Hi, I'm Lokesh Sharma.</span><br/><span>I'm a <TextRoleAnimation/></span> 
             <p>
             Proficient Software Developer skilled in working with modern frameworks like React, Node.js, and Express. Dedicated to writing clean, maintainable code and enhancing software performance.
             </p>
