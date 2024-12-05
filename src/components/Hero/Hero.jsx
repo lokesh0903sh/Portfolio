@@ -4,7 +4,7 @@ import TextRoleAnimation from "../TextRoleAnimation";
 
 const Hero = () => {
     const handleClick = () => {
-        window.location.href = "https://drive.google.com/file/d/1_T6L2wiwUMeda7Vs5_SXf38gPfia8Spf/view?usp=sharing"  
+        window.location.href = "https://drive.google.com/file/d/1XIK2HR3Yy6qGALr9hUviMPYt5EMJ7bEc/view?usp=sharing"  
       };
       const handleClickHire = () => {
         window.location.href = "mailto:lokesh0903sh@gmail.com"
